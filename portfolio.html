@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+   <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles/portfolio.css">
+  <link rel="stylesheet" href="styles/main.css">
+  <!-- <link rel="stylesheet" href="images/simplelightbox-master/dist/simple-lightbox.css"> -->
+  <title>Portfolio</title>
+</head>
+
+<body>
+
+  <header>
+
+    <nav>
+      <div class="nav-logo">
+        <img src="images/c2.png" />
+        <!-- <h1><i>PHOTOGRAPHY</i></h1> -->
+      </div>
+
+      <div class="nav-links">
+        <ul id="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="aboutMe.html">About Me </a></li>
+          <li><a href="gallary.html">Gallary</a></li>
+          <li><a href="blog.html">Blog</a></li>
+        </ul>
+      </div>
+
+      <div class="nav-btn">
+        <img src="../images/circle-user-regular.svg" id="one" class="user-icon" />
+        <i class="fa-solid fa-bars" id="menuIcon" onclick="openMenu()"></i>
+
+        <i class="fa-solid fa-circle-xmark" onclick="closeMenu()" id="closeIcon"></i>
+      </div>
+    </nav>
+  </header>
+
+  <section class="portfolio-section">
+    <div class="content-box">
+      <h1>Types of Photography,Styles</h1>
+      <p>From portraiture to photojournalism to product photography, there are a vast number of genres you can pursue.
+        Learn about your options before you select a style to focus on.</p>
+    </div>
+
+  </section>
+
+  <div class="line1"></div>
+
+
+  <!-- middle section starts here -->
+  <section>
+    <section class="types-section">
+      <div class="types-heading">
+        <div class="line"></div>
+        <h2>Nature photography</h2>
+        <div class="line"></div>
+
+      </div>
+      <p>"In every walk with nature, one receives far more than they seek."</p>
+
+      <!-- pic container  -->
+      <div class="photo-container gallary " data-category="nature"></div>
+      <button class="types-button">View More</button>
+
+    </section>
+
+
+
+    <!-- 2 -->
+    <section class="types-section">
+      <div class="types-heading">
+        <div class="line"></div>
+        <h2>Food photography</h2>
+        <div class="line"></div>
+
+      </div>
+      <p>"You eat with your eyes first—let every shot tell a delicious story."</p>
+        <div class="photo-container gallary " data-category="food"></div>
+      <button class="types-button">View More</button>
+
+    </section>
+
+
+    <!-- 3 -->
+    <section class="types-section">
+      <div class="types-heading">
+        <div class="line"></div>
+        <h2>Wildlife photography</h2>
+        <div class="line"></div>
+
+      </div>
+      <p>"Capturing moments today that will become memories tomorrow."</p>
+
+      <!-- pic container  -->
+      <div class="photo-container gallary" data-category="wildlife"></div>
+
+      <button class="types-button">View More</button>
+
+    </section>
+
+
+    <!-- 4 -->
+    <section class="types-section">
+      <div class="types-heading">
+        <div class="line"></div>
+        <h2>Event photography</h2>
+        <div class="line"></div>
+      </div>
+
+      <p>"Capturing moments today that will become memories tomorrow."</p>
+
+      <!-- pic container  -->
+      <div class="photo-container gallary" data-category="event">
+      </div>
+      <button class="types-button">View More</button>
+
+    </section>
+
+
+    <!-- 5 -->
+
+    <section class="types-section">
+      <div class="types-heading">
+        <div class="line"></div>
+        <h2>Architecture photography</h2>
+        <div class="line"></div>
+
+      </div>
+      <p>"Architecture photography is not just about buildings, it's about capturing the soul of space — how light, form, and shadow come together to tell a silent story."/p>
+
+         <!-- pic container  -->
+      <div class="photo-container gallary" data-category="architecture">
+      </div>
+
+      <button class="types-button">View More</button>
+
+    </section>
+
+
+    <!-- 6-->
+
+    <section class="types-section">
+      <div class="types-heading">
+        <div class="line"></div>
+        <h2>Bird photography</h2>
+        <div class="line"></div>
+
+      </div>
+      <p>"Bird photography is the art of patience — waiting in silence to capture a fleeting moment of wild freedom in perfect stillness."</p>
+
+         <!-- pic container  -->
+      <div class="photo-container gallary" data-category="bird">
+      </div>
+      <button class="types-button">View More</button>
+
+    </section>
+
+
+    <!-- 7-->
+
+
+    <section class="types-section">
+      <div class="types-heading">
+        <div class="line"></div>
+        <h2>Macro photography</h2>
+        <div class="line"></div>
+
+      </div>
+      <p>"Macro photography reveals the hidden beauty of the tiny — a universe in a raindrop, a story in a petal."</p>
+
+         <!-- pic container  -->
+      <div class="photo-container gallary" data-category="macro">
+      </div>
+
+      <button class="types-button">View More</button>
+
+    </section>
+
+
+    <!-- 8-->
+
+    <section class="types-section">
+      <div class="types-heading">
+        <div class="line"></div>
+        <h2>Sunset photography</h2>
+        <div class="line"></div>
+
+      </div>
+      <p>"Sunset photography is capturing the sky’s final whisper — a farewell painted in gold, fire, and calm."</p>
+
+       <!-- pic container  -->
+      <div class="photo-container gallary" data-category="sunset">
+      </div>
+      <button class="types-button">View More</button>
+
+    </section>
+
+
+    <!-- 9 -->
+    <section class="types-section">
+      <div class="types-heading">
+        <div class="line"></div>
+        <h2>Pet photography</h2>
+        <div class="line"></div>
+
+      </div>
+      <p>"Pet photography freezes pure love in a single frame."</p>
+
+         <!-- pic container  -->
+      <div class="photo-container gallary" data-category="pet">
+      </div>
+
+      <button class="types-button">View More</button>
+
+    </section>
+
+
+    <!-- 10 -->
+
+    <section class="types-section">
+      <div class="types-heading">
+        <div class="line"></div>
+        <h2>Astro photography</h2>
+        <div class="line"></div>
+
+      </div>
+      <p>"Astro photography lets us frame the stars and touch the infinite."</p>
+
+         <!-- pic container  -->
+      <div class="photo-container gallary" data-category="astro">
+      </div>
+
+      <!-- <section class="portfolio-grid">
+        <div class="photo-card">
+          <img src="images/portfolio/flower.jpg" alt="Nature Photography">
+        </div>
+
+        <div class="photo-card">
+          <img src="images/portfolio/coconut-tree.jpg" alt="Portrait Photography">
+        </div>
+
+        <div class="photo-card">
+          <img src="images/portfolio/IMG_20250510_091423.jpg" alt="Portrait Photography">
+        </div>
+
+        <div class="photo-card">
+          <img src="images/portfolio/kaneri.jpg" alt="Portrait Photography">
+        </div>
+
+        <div class="photo-card">
+          <img src="images/portfolio/moon.jpg" alt="Nature Photography">
+        </div>
+
+        <div class="photo-card">
+          <img src="images/portfolio/sky.jpg" alt="Portrait Photography">
+        </div>
+
+      </section> -->
+
+      <button class="types-button">View More</button>
+
+    </section>
+
+
+
+    <!-- 11 -->
+
+    <section class="types-section">
+      <div class="types-heading">
+        <div class="line"></div>
+        <h2>Street photography</h2>
+        <div class="line"></div>
+
+      </div>
+      <p>"Street photography captures life in its raw, unscripted form."</p>
+
+
+         <!-- pic container  -->
+      <div class="photo-container gallary" data-category="street">
+      </div>
+      <button class="types-button">View More</button>
+    </section>
+
+
+    <!-- 12-->
+    <section class="types-section">
+      <div class="types-heading">
+        <div class="line"></div>
+        <h2>Sports photography</h2>
+        <div class="line"></div>
+
+      </div>
+      <p>"Sports photography captures the split-second where passion meets performance."</p>
+
+         <!-- pic container  -->
+      <div class="photo-container gallary" data-category="sports">
+      </div>
+      <button class="types-button">View More</button>
+
+    </section>
+
+
+    <!-- 13-->
+    <section class="types-section">
+      <div class="types-heading">
+        <div class="line"></div>
+        <h2>Adventure photography</h2>
+        <div class="line"></div>
+
+      </div>
+      <p>"Adventure photography is the lens through which courage meets the unknown."</p>
+
+         <!-- pic container  -->
+      <div class="photo-container gallary" data-category="adventure">
+      </div>
+
+      <button class="types-button">View More</button>
+
+    </section>
+
+  </section>
+
+
+
+  <!-- footer section starts here -->
+
+  <footer id="contact">
+    <div class="section__container footer__container">
+      <div class="footer__col">
+        <img src="../images/portfolio/Logo.png" alt="logo" />
+        <div class="footer__socials">
+          <a ><i class="ri-facebook-fill"></i></a>
+          <a ><i class="ri-instagram-line"></i></a>
+          <a ><i class="ri-twitter-fill"></i></a>
+          <a ><i class="ri-youtube-fill"></i></a>
+          <a ><i class="ri-pinterest-line"></i></a>
+        </div>
+      </div>
+
+      <div class="footer__col">
+        <ul class="footer__links">
+         <li><a href="index.html">HOME</a></li>
+          <li><a href="portfolio.html">PORTFOLIO</a></li>
+          <li><a href="aboutMe.html">ABOUT ME </a></li>
+          <li><a href="gallary.html">GALLARY</a></li>
+          <li><a href="blog.html">BLOG</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>Behind the Lens</h4>
+        <p>
+          “Peek into the stories behind every shot. From travel adventures to still life, discover what makes each photo special.”
+        </p>
+      </div>
+    </div>
+    <div class="footer__bar">
+      Copyright © 2025 Web Design Mastery. All rights reserved.
+    </div>
+  </footer>
+
+
+  <script src="scripts/portfolio.js"></script>
+<script src="scripts/script.js"></script>
+</body>
+
+
+</html>

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="stylesheet" href="output.css"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+  
+
+  <link rel="stylesheet" href="styles/style.css">
+  <!-- <link rel="stylesheet" href="style.css"> -->
+  <!-- <link rel="stylesheet" href="./styles/main.css"> -->
+  <title>Home</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="nav-logo">
+        <img src="images/c2.png" />
+        <!-- <h1><i>PHOTOGRAPHY</i></h1> -->
+      </div>
+
+      <div class="nav-links">
+        <ul id="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="aboutMe.html">About Me </a></li>
+          <li><a href="gallary.html">Gallary</a></li>
+          <li><a href="blog.html">Blog</a></li>
+        </ul>
+      </div>
+      
+      <div class="nav-btn">
+        <img src="./images/circle-user-regular.svg" id="one" class="user-icon" style="display:block;" />
+         <!-- <span class="search-icon1"> -->
+          <!-- <i class="fas fa-search" style="display: block;"></i> -->
+        <i class="fa-solid fa-bars" id="menuIcon" onclick="openMenu()"></i>
+
+        <i class="fa-solid fa-circle-xmark" onclick="closeMenu()" id="closeIcon"></i>
+      </div>
+
+    </nav>
+   
+  </header>
+
+  <section class="hero-section">
+
+    <div class="content-box">
+      <h1>Photography</h1>
+      <p>"To me, Photography is an art of observation. It's about finding something interesting in an ordinary place."
+      </p>
+    </div>
+
+  </section>
+
+  <!-- category -->
+
+  <section class="category">
+    <div class="card">
+      <div>
+        <i class="fa-solid fa-camera"></i>
+        <h3>Portrait Photography</h3>
+      </div>
+
+      <p>Capture timeless moments with our portrait photography services. Whether you need professional headshots,
+        family portraits, or a creative personal shoot, we ensure every frame reflects your true personality. With
+        expert lighting, thoughtful composition, and a comfortable environment, we bring out the best in you—naturally
+        and beautifully.</p>
+      <button class="read-more">Read More</button>
+    </div>
+
+
+    <div class="card">
+      <div>
+        <i class="fa-solid fa-lightbulb"></i>
+        <h3>Creative Concept Shoots</h3>
+      </div>
+
+      <p>Unleash your imagination with our conceptual photography sessions. These shoots are designed around unique
+        themes, props, and storytelling elements to bring your vision to life. Perfect for artists, influencers, and
+        anyone looking for bold, standout images—each session is an artistic collaboration that transforms ideas into
+        visual masterpieces.</p>
+      <button class="read-more">Read More</button>
+    </div>
+
+
+    <div class="card">
+      <div>
+        <i class="fa-solid fa-bag-shopping"></i>
+        <h3> Event Coverage</h3>
+      </div>
+
+      <p>From intimate gatherings to grand celebrations, we provide comprehensive event photography services. Our team
+        captures every candid moment, smile, and detail—ensuring your memories are preserved forever. Be it weddings,
+        birthdays, corporate functions, or cultural events, we blend into the background to deliver authentic,
+        high-quality images.</p>
+
+      <button class="read-more">Read More</button>
+    </div>
+  </section>
+
+  <!-- products -->
+  <section class="products">
+
+    <div class="product-left">
+      <h3>“Framing Life, One Click at a Time”</h3>
+      <p>Photography for me is more than a skill—it’s the art of pausing time. From stolen glances to spontaneous
+        laughter, I believe the most powerful images are born when you're least expecting them. My goal is to preserve
+        those fleeting seconds that often go unnoticed but matter the most. Let’s create something memorable
+        together—something that stays with you forever. From editorial shoots to everyday portraits, I work with clarity
+        and passion to deliver visuals that stand out and speak louder than words. </p>
+      <button class="btn">View More</button>
+    </div>
+
+    <div class="product-right">
+      <img src="images/camera.jpg" alt="" class="cam">
+
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer id="contact">
+    <div class="section__container footer__container">
+      <div class="footer__col">
+        <img src="../images/portfolio/Logo.png" alt="logo" />
+        <div class="footer__socials">
+          <a><i class="ri-facebook-fill"  id="media"></i></a>
+          <a><i class="ri-instagram-line" id="media"></i></a>
+          <a><i class="ri-twitter-fill" id="media"></i></a>
+          <a><i class="ri-youtube-fill" id="media"></i></a>
+          <a><i class="ri-pinterest-line" id="media"></i></a>
+        </div>
+      </div>
+
+      <div class="footer__col">
+        <ul class="footer__links">
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="portfolio.html">PORTFOLIO</a></li>
+          <li><a href="aboutMe.html">ABOUT ME </a></li>
+          <li><a href="gallary.html">GALLARY</a></li>
+          <li><a href="blog.html">BLOG</a></li>
+          <!-- <li><a href="#contact">CONTACT US</a></li> -->
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>Behind the Lens</h4>
+        <p>
+          “Peek into the stories behind every shot. From travel adventures to still life, discover what makes each photo special.”
+        </p>
+      </div>
+    </div>
+    <div class="footer__bar">
+      Copyright © 2025 Web Design Mastery. All rights reserved.
+    </div>
+  </footer>
+
+<button id="scrollToTop" title="Back to top">↑</button>
+</body>
+<script src="scripts/script.js"></script>
+
+</html>

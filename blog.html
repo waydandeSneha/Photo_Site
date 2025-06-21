@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="styles/blog.css" />
+  <link rel="stylesheet" href="styles/main.css" />
+  <!-- <link rel="stylesheet" href="blog.css"> -->
+  <title>Photography Blog</title>
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <div class="nav-logo">
+        <img src="images/c2.png" />
+      </div>
+
+      <div class="nav-links">
+        <ul id="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="aboutMe.html">About Me </a></li>
+          <li><a href="gallary.html">Gallary</a></li>
+          <li><a href="blog.html">Blog</a></li>
+        </ul>
+      </div>
+
+      <div class="nav-btn">
+        <img src="../images/circle-user-regular.svg" id="one" class="user-icon" />
+        <i class="fas fa-search" style="visibility: inherit;"></i>
+        <i class="fa-solid fa-bars" id="menuIcon" onclick="openMenu()"></i>
+        <i class="fa-solid fa-circle-xmark" onclick="closeMenu()" id="closeIcon"></i>
+      </div>
+    </nav>
+
+
+  </header>
+
+
+
+  <section class="header-gradient minimal-blog-header">
+    <div class="mini-wrapper">
+      <i class="ri-camera-lens-line"></i>
+      <h1>Photography Blogs</h1>
+      <p>Tips, tricks, and moments — all in one place.</p>
+    </div>
+  </section>
+
+
+  <!-- ############################################################################################################################## -->
+  <section class="sec-four">
+    <div class="container">
+
+      <!-- Large Blogs -->
+      <div class="blog-wrapper-large">
+        <div class="blog">
+          <img src="./images/Blog/tips.avif" class="blog-img" />
+          <div class="blog-content">
+            <span class="badge">Photography</span>
+            <span class="misc-info">Published: 1 Week Ago | 25 Comments</span>
+            <h3 class="blog-title">Best Photography Tips For Beginner</h3>
+            <p class="blog-text">The best way to keep improving is to practice often, make mistakes and be open to
+              learning from others, whether they’re well-established photographers or newcomers to the craft. </p>
+            <a href="#" class="blog-btn toggle-read-more">READ MORE</a>
+          </div>
+        </div>
+
+        <div class="blog">
+          <img src="./images/Blog/History.avif" class="blog-img" style="height: 67vh;" />
+          <div class="blog-content">
+            <span class="badge">Photography</span>
+            <span class="misc-info">Published: 4 Week Ago | 50 Comments</span>
+            <h3 class="blog-title">History of Photography</h3>
+            <p class="blog-text">The history of photography began with the discovery of two critical principles: The
+              first is camera obscura image projection; the second is some substances are visibly altered by exposure to
+              light.</p>
+            <a href="#" class="blog-btn toggle-read-more">READ MORE</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Small Blogs -->
+      <div class="blog-wrapper-small">
+        <div class="blog">
+          <img src="./images/Blog/phot.avif" class="blog-img" style="height: 33vh;" />
+          <div class="blog-content">
+            <span class="badge">Photography</span>
+            <span class="misc-info">Published: 3 Week Ago | 45 Comments</span>
+            <h3 class="blog-title">Top photographers in India</h3>
+            <p class="blog-text">Raghu Rai is one of the renowned photographers in India. Through his Photography, he has worked for political causes.
+            </p>
+            <a href="#" class="blog-btn toggle-read-more">READ MORE</a>
+          </div>
+        </div>
+
+        <div class="blog">
+          <img src="./images/Blog/basics.avif" class="blog-img" />
+          <div class="blog-content">
+            <span class="badge">Photography</span>
+            <span class="misc-info">Published: 6 Week Ago | 35 Comments</span>
+            <h3 class="blog-title">Photo Composition Basics</h3>
+            <p class="blog-text">Good composition turns a snapshot into art. Learn the essential techniques like the 
+            rule of thirds, leading lines, and negative space to bring balance and interest to your frames.</p>
+            <a href="#" class="blog-btn toggle-read-more">READ MORE</a>
+          </div>
+        </div>
+
+
+        <div class="blog">
+          <img src="./images/Blog/mobile.avif" class="blog-img" style="height: 33vh;" />
+          <div class="blog-content">
+            <span class="badge">Photography</span>
+            <span class="misc-info">Published: 5 Week Ago | 20 Comments</span>
+            <h3 class="blog-title">Mastering Mobile Photography</h3>
+            <p class="blog-text">Think you need expensive gear to take stunning photos? Think again. Learn how to
+              maximize your phone camera’s capabilities with simple techniques like lighting</p>
+            <a href="#" class="blog-btn toggle-read-more">READ MORE</a>
+          </div>
+        </div>
+
+        <div class="blog">
+          <img src="./images/Blog/golden.avif" class="blog-img" />
+          <div class="blog-content">
+            <span class="badge">Photography</span>
+            <span class="misc-info">Published: 7 Week Ago | 10 Comments</span>
+            <h3 class="blog-title">Golden Hour Magic</h3>
+            <p class="blog-text">The golden hour that short window after sunrise or before sunset can transform your
+              photos. This blog explores why it's so loved by photographers and how to make the most of it.</p>
+            <a href="#" class="blog-btn toggle-read-more">READ MORE</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ################################################################################################################################# -->
+
+  <!-- new blog design starts here -->
+  <section class="section__container blog__container" id="blog">
+    <!-- <h2 class="section__header">Blogs</h2> -->
+    <div class="types-heading">
+      <div class="line"></div>
+      <h2>Blogs</h2>
+      <div class="line"></div>
+    </div>
+    <div class="blog__grid">
+      <div class="blog__card">
+        <h5>3.01.2025</h5>
+        <h4>5 Tips for Capturing Stunning Portraits</h4>
+        <p>
+          Discover simple yet powerful techniques to enhance your portrait
+          photography, from mastering lighting to connecting with your subject
+          for authentic shots.
+        </p>
+      </div>
+      <div class="blog__card">
+        <h5>10.02.2025</h5>
+        <h4>The Art of Visual Storytelling in Filmmaking</h4>
+        <p>
+          Explore how to craft compelling narratives through cinematography,
+          sound design, and editing that leave a lasting impact on your
+          audience.
+        </p>
+      </div>
+      <div class="blog__card">
+        <h5>15.04.2025</h5>
+        <h4>Essential Gear Every Photographer Needs</h4>
+        <p>
+          A comprehensive guide to must-have equipment, from cameras to lenses
+          and accessories, for both beginners and seasoned photographers.
+        </p>
+      </div>
+      <div class="blog__card">
+        <h5>25.05.2025</h5>
+        <h4>Create Cinematic Videos with Minimal Gear</h4>
+        <p>
+          Practical advice for achieving the professional-quality videos
+          without breaking your bank, perfect for new and aspiring filmmakers
+          on a budget.
+        </p>
+      </div>
+    </div>
+    <div class="blog__btn">
+      <button class="newblog-btn">VIEW ALL BLOGS</button>
+    </div>
+  </section>
+
+
+
+  <!-- ############################################################################################## -->
+  <!-- footer starts here -->
+
+
+  <footer id="contact">
+    <div class="section__container footer__container">
+      <div class="footer__col">
+        <img src="./images/portfolio/Logo.png" alt="logo" />
+        <div class="footer__socials">
+          <a><i class="ri-facebook-fill" id="media"></i></a>
+          <a><i class="ri-instagram-line" id="media"></i></a>
+          <a><i class="ri-twitter-fill" id="media"></i></a>
+          <a><i class="ri-youtube-fill" id="media"></i></a>
+          <a><i class="ri-pinterest-line" id="media"></i></a>
+        </div>
+      </div>
+
+      <div class="footer__col">
+        <ul class="footer__links">
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="portfolio.html">PORTFOLIO</a></li>
+          <li><a href="aboutMe.html">ABOUT ME </a></li>
+          <li><a href="gallary.html">GALLARY</a></li>
+          <li><a href="blog.html">BLOG</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <h4>Behind the Lens</h4>
+        <p>
+          “Peek into the stories behind every shot. From travel adventures to still life, discover what makes each photo
+          special.”
+        </p>
+      </div>
+
+    </div>
+    <div class="footer__bar">
+      Copyright © 2025 Web Design Mastery. All rights reserved.
+    </div>
+  </footer>
+
+
+  <script src="scripts/script.js"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <!-- <script src="scripts/blog.js"></script> -->
+  <script src="scripts/blog.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,256 @@
+/*  header section*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+/* section two starts here */
+
+.portfolio-section {
+
+  background-image: url('../images/portfolio/port4.jpg');
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  text-align: center;
+  padding: 40px;
+  background-color: #f3f3f3;
+  z-index: 1;
+}
+
+
+.portfolio-section:after {
+  content: '';
+  width: 100%;
+  height: 65vh;
+  overflow: hidden;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.562);
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.portfolio-section .content-box {
+  max-width: 700px;
+  color: #fff;
+  position: absolute;
+  z-index: 3;
+
+}
+
+.portfolio-section .content-box h1 {
+  font-size: 64px;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+}
+
+.portfolio-section .content-box p {
+  font-size: 20px;
+  color: darkorange;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+/* line section */
+.line1 {
+  width: 100%;
+  height: 10px;
+  background-color: rgba(0, 0, 0, 0.735);
+}
+
+/*middle section starts here*/
+.types-section {
+  text-align: center;
+  padding: 60px 20px;
+  /* background-color:lightblue; */
+  font-family: Arial, Helvetica, sans-serif;
+  align-items: center;
+  justify-content: right;
+}
+
+.types-heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.types-heading h2 {
+  margin: 0 15px;
+  font-size: 30px;
+  color: #333;
+  white-space: nowrap;
+}
+
+.types-heading .line {
+  flex: 1;
+  height: 2px;
+  background-color: #aaa;
+  max-width: 150px;
+}
+
+.types-section p {
+  max-width: 700px;
+  margin: 0 auto 30px auto;
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.types-section .types-button {
+  background-color: green;
+  color: white;
+  padding: 10px 25px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Times New Roman', Times, serif;
+  transition: background-color 0.2s ease;
+}
+
+.types-section .types-button:hover {
+  background-color: darkgreen;
+}
+
+
+/* firset nature images */
+
+.photo-container {
+  height: 70vh;
+  width: 80vw;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-left: 80px;
+}
+
+.photo {
+  height: 45%;
+  width: 350px;
+  border-radius: 10px;
+  margin: 5px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+
+/*
+.photo-container {
+  height: 70vh;
+  width: 80vw;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-left: 80px;
+
+}
+
+.photo {
+  height: 45%;
+  width: 350px;
+  border-radius: 10px;
+  margin: 5px;
+  
+
+}
+
+
+ .photo:nth-child(1) {
+  
+  background-image: url(../images/port1.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.photo:nth-child(2) {
+  flex-grow: 1;
+  background-image: url(../images/port2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.photo:nth-child(3) {
+  flex-grow: 3;
+  background-image: url(../images/port5.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.photo:nth-child(4) {
+  flex-grow: 4;
+  background-image: url(../images/port6.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+@media only screen and (max-width: 900px) {
+
+  .photo-container {
+    display: block;
+    /* height: 20vh; */
+    /* flex-shrink: inherit; */
+
+  }
+
+  .photo {
+    height: 30%;
+    width: 350px;
+
+  }
+
+  .types-button {
+    display: none;
+  }
+
+}
+
+/* end of nature images new container */
+
+/* main images are here */
+.portfolio-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.photo-card {
+  width: 280px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  overflow: hidden;
+  background-color: #fafafa;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.photo-card img {
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+  transition: 0.3s;
+}
+
+.photo-card:hover img:not(hover) {
+  opacity: 0.7;
+}
